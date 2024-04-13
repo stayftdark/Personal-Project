@@ -14,7 +14,7 @@ body {
   width: 100%;
   height: 100vh;
   position: relative;
-  /* padding, left and right: 0, top and bottom 5% */
+  /* padding, left and right: 5%, top and bottom 0 */
   padding: 0 5%;
   align-items: center;
   justify-content: center;
@@ -24,13 +24,22 @@ nav{
   position: absolute;
   top: 0;
   left: 0;
-  padding: 20px 8%; 
+  padding: 30px 5%; 
   /* makes everything in a single line */
   display: flex; 
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .logo {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 25px 50px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
