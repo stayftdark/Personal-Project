@@ -5,16 +5,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
   }
   body {
     font-family: 'Mate SC', sans-serif;
   }
-.container {
-    display: flex;
-    padding: 1.5em;
-    justify-content: center;
-}
-.navbar a {
+  ul {
+    list-style-type: none;
+  }
+  .container .navbar {
+  background-color: aqua;
+  justify-content: center;
+  }
+  .navbar a {
     font-size: 18px;
-    padding:    0.5em 5em;
-}
+    padding:    0em 5em;
+    justify-content: center;
+    border: black solid;
+  }
+  .text div{
+  justify-content: flex-start;
+  }
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
