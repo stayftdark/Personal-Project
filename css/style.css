@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Mate SC', sans-serif;
+  }
+.container {
+    display: flex;
+    padding: 1.5em;
+    justify-content: center;
+}
+.navbar a {
+    font-size: 18px;
+    padding:    0.5em 5em;
+}
