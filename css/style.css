@@ -14,7 +14,7 @@
     list-style-type: none;
   }
   .container .navbar {
-  background-color: aqua;
+  background-color: rgb(67, 172, 172);
   justify-content: center;
   }
   .navbar a {
@@ -25,12 +25,7 @@
   }
   .text div{
   justify-content: flex-start;
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
+
   }
   #myVideo {
     position: fixed;
